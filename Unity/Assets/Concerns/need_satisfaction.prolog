@@ -15,12 +15,7 @@ standard_concern(need_satisfaction, 1).
 
 %% need(?NeedNanme, ?DepletionTime)
 %  NeedName takes DepletionTime seconds to deplete.
-need(hunger, 60).
-need(thirst, 40).
-need(sleep, 120).
-need(bladder, 40).
-need(hygiene, 120).
-need(fun, 30).
+
 need(social, 30).
 
 %% survival_need(?Need)
